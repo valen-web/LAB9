@@ -1,0 +1,138 @@
+body{background-color: black;
+    font-family: 'Poppins', sans-serif;}
+
+#foto-perfil{
+  width: 11%;
+  height: 11%;
+  margin-left: 5%;
+}
+
+#barra{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+}
+
+#barra-dad{
+    background-color: rgb(24, 24, 24);
+    border-radius: 20px;
+    padding: 1%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 3%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+#pregunta{
+    margin-left: 3%;
+    padding-right: 50%;
+    padding-left: 2%;
+    border-radius: 60px;
+    border: none;
+    background-color: rgb(61, 61, 61);
+    display: flex;
+}
+
+#cuestion{height: 20%;
+    margin-top: 15%;
+    background-color: rgb(61, 61, 61);
+    border: none;
+    color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+#myModal{
+    background-color: rgb(24, 24, 24);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 35%;
+   height: auto;
+   margin-left: 30%;
+   margin-bottom: 30%;
+   margin-top: 3%;
+   display: none;
+}
+
+h3{color: white;margin-top: 3%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+h2{color: white;
+    margin-left: 4%;
+    margin-top: 3%;
+}
+
+#text{
+   padding: 1%;
+   background-color: transparent;
+   border: none;
+}
+
+#text2{background-color: transparent;
+    color: white;
+    width: 90%;
+    height: 20%;
+    padding-bottom: 30%;
+    padding-top: 5%;
+    margin-left: 5%;
+    border: none;
+    border-radius: 10px;}
+
+.publicar{padding-right: 45%;
+padding-left: 45%;
+border-radius: 10px;
+padding-top: 1%;
+padding-bottom: 2%;
+color: white;
+background-color: gray;
+border: none;
+margin-top: 2%;
+}
+
+.publicar:hover{background-color: rgb(19, 123, 236);}
+.color{background-color: rgb(105, 105, 250);}
+
+#close{
+    margin-left: 90%;
+    padding: 3%;
+    color: white;
+}
+
+#foto-coment{
+    width: 5%;
+    height: 10%;
+    margin-left: -30%;
+    margin-top: 2%;
+    position: absolute;
+}
+
+#linea{
+    background-color: rgb(167, 167, 167);
+    margin-left: 0%;
+    margin-right: 0%;
+    border-radius: 5px;
+    height: 2px;
+}
+
+.hide{display: none;}
+.show{display: block;}
+
+#lista{color: white;
+margin-top: 2%;
+padding: auto;
+padding-left: 3%;
+margin-left: 4%;
+margin-right: 4%;
+}
+
+
+

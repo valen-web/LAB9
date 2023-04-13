@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="LAB9.css">
+    <script src="https://kit.fontawesome.com/e763086bf5.js" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+        </style>
+    <title>Document</title>
+</head>
+<body>
+<div id="dad">
+    <div id="barra-dad">
+    <div id="barra">
+        <img id="foto-perfil" src="https://images.vexels.com/media/users/3/147101/isolated/preview/b4a49d4b864c74bb73de63f080ad7930-bot-n-de-perfil-de-instagram.png" alt="">
+        <div id="pregunta"> 
+            <button onclick="mostrarcoment()" class="abrir" id="cuestion" ><p>¿Que estas pensando, Andrea?</p></button>
+        </div>
+    </div>
+    </div>
+
+    <div id="myModal" class="hide" >
+        <div class="seccion-cerrar">
+            <i class="fa-solid fa-x" id="close" onclick="cerrar()"></i>
+            <img id="foto-coment" src="https://images.vexels.com/media/users/3/147101/isolated/preview/b4a49d4b864c74bb73de63f080ad7930-bot-n-de-perfil-de-instagram.png" alt="">
+        </div>
+
+        <h3 id="pregunta2">Crear publicacion</h3>
+        <div class="oc" id="linea">
+            <p></p>
+        </div>
+        <span><h2>Andrea Andrade</h2></span>
+        <div class="texto" id="text">
+            <textarea id="text2"></textarea>
+        </div>
+        <div class="oc" id="">
+            <input class="publicar" id="publicarcoment" type="button" value="publicar" onclick="publicarcomentario()">
+        </div>
+    </div>
+    <div id="lista">
+        
+    </div>
+</div>
+ <script src="LAB9.js"></script>
+</body>
+</html>
